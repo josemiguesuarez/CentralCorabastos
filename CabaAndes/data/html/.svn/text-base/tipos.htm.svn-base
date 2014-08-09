@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="Andres Decastro" />
+
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+	<title>Integrandes | Consultar Recursos</title>
+</head>
+
+<body>
+
+<h1>Seleccione un tipo de recurso:</h1>
+<div class="input-append">
+  <input class="span2" id="appendedDropdownButton" type="text">
+  <div class="btn-group">
+    <button class="btn dropdown-toggle" data-toggle="dropdown">
+      Action
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li>Busqueda por nombre</li>
+      <li>Busqueda por fecha</li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>

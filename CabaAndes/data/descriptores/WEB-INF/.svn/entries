@@ -1,0 +1,53 @@
+8
+
+dir
+19
+https://subversion.assembla.com/svn/sistemastransaccionales/IntegrAndes/data/descriptores/WEB-INF
+https://subversion.assembla.com/svn/sistemastransaccionales
+
+
+
+2013-04-15T01:42:13.885126Z
+19
+andresdc0123
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f9a0187c-95ea-4895-8b1f-b8504766c4bd
+
+web (Copia en conflicto de Andres Decastro 2013-03-18).xml
+file
+
+
+
+
+2013-04-13T01:38:06.825992Z
+433ccbf08de09c8ddbfc2bbdb55a99a2
+2013-04-12T18:02:42.963091Z
+3
+andresdc0123
+has-props
+
+web.xml
+file
+21
+
+
+
+2013-04-15T02:46:34.460656Z
+0197c06c351e0db0c6369bb686783b38
+2013-04-15T02:50:22.490730Z
+21
+andresdc0123
+

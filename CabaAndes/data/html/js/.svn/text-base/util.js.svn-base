@@ -1,0 +1,36 @@
+function oculta(id){
+	 var elDiv = document.getElementById(id); //se define la variable "elDiv" igual a nuestro div
+	 elDiv.style.display='none'; //damos un atributo display:none que oculta el div	 
+	}
+ 
+function muestra(id){
+	 var elDiv = document.getElementById(id); //se define la variable "elDiv" igual a nuestro div
+	 elDiv.style.display='block';//damos un atributo display:block que  el div	 
+	}
+    
+function change(value)
+{
+    if(value==2)
+    {
+        muestra('datepicker');
+        muestra('datepicker2');
+        muestra('fecha1');
+        muestra('fecha2');
+    }
+    else
+    {
+        oculta('datepicker');
+        oculta('datepicker2'); /*Ocultamos Pmoral*/
+        oculta('fecha1');
+        oculta('fecha2');
+    }
+}
+ 
+ 
+window.onload = function(){/*hace que se cargue la función */
+/* "Mandamos como parametro el nombre de la Div para ocultar" */
+oculta('datepicker');
+oculta('datepicker2'); /*Ocultamos Pmoral*/
+oculta('fecha1');
+oculta('fecha2');
+}

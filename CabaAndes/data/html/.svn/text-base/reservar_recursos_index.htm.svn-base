@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<head>
+    <title>Integrandes | Consultar Recursos</title>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="Andres Decastro" />
+    <meta charset="utf-8" />
+    <title>jQuery UI Datepicker - Default functionality</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <script>
+    $(function() {
+    $( "#datepicker" ).datepicker();
+    });
+    </script>
+</head>
+
+<body>
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+      <nav>
+        <ul class="nav pull-right">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Sign in</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<div class="container">
+      <div class="center hero-unit">    
+    <h1>Consultar Reservas</h1>
+    <br />
+    <form action="reservar_recursos.htm" method="post">
+    <table>
+    <tr>
+        <td id="fecha1">Fecha 1: </td>
+        <td><input type="text" id="datepicker" name="fecha" placeholder="Fecha 1"/></td>
+    </tr>
+    <tr>
+    	<td id="horaInicio">HoraInicio: </td>
+    	<td><input type="text" name="horaInicio"/></td>
+    </tr>
+	<tr>
+    	<td id="horaInicio">HoraFin: </td>
+    	<td><input type="text" name="horaFin"/></td>
+    </tr>
+    <tr>
+        <td><input type="submit"/></td>
+    </tr>
+    </table>
+    </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="Andres Decastro" />
+
+	<title>Registrar Reserva</title>
+</head>
+
+<body>
+
+<h1>Unidad de Servicios:</h1>
+<br />
+<p>Seleccione un tipo de recurso:</p>
+<form action="registrar_reserva_servlet.htm" method="post">
+<select>
+    <option value="">POR CADA UNO UNA OPCION</option>
+</select>
+</form>
+
+
+</body>
+</html>

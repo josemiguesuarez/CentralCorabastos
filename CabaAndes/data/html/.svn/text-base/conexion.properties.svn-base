@@ -1,0 +1,4 @@
+url= jdbc:oracle:thin:@prod.oracle.virtual.uniandes.edu.co:1531:prod
+usuario= isis2304a121310
+clave= cacao4casino2
+driver= oracle.jdbc.driver.OracleDriver

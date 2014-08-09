@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="Andres Decastro" />
+
+	<title>Untitled 1</title>
+</head>
+
+<body>
+<h1>BIENVENIDO</h1>
+
+<a href="registrarReserva.htm">Regitrar una Reserva</a>
+<a href="registrarPrestamo.htm">Registrar Prestamo</a>
+<a href="registrarDevolucion.htm">Registrar Devolucion</a>
+
+</body>
+</html>
